@@ -163,6 +163,9 @@ button {
     max-width: 1200px;
     /* ERROR 3: El contenido no está centrado en la página
        PISTA: Falta una propiedad que centra elementos de bloque horizontalmente */
+
+    /* Corrección: Centra el bloque horizontalmente con margin: 0 auto; */
+    margin: 0 auto;
     padding: 0 var(--spacing-lg);
 }
 
@@ -215,6 +218,7 @@ button {
        SOLUCIÓN: Falta la propiedad transition para animar los cambios de estado
        Agregar: transition: all var(--transition-base);
        Esto hace que el hover y otros estados se animen suavemente */
+    transition: all var(--transition-base);
     cursor: pointer;
     white-space: nowrap;
 }
