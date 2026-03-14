@@ -223,12 +223,13 @@ button {
     white-space: nowrap;
 }
 
-.btn--primary {
+..btn--primary {
     background: var(--gradient-primary);
     color: white;
     border: none;
     /* ERROR 5: El botón primario no tiene profundidad ni efecto de brillo
        PISTA: Falta la propiedad que agrega sombras al elemento */
+    box-shadow: 0 4px 15px rgba(51, 45, 226, 0.2);
 }
 
 .btn--primary:hover {
