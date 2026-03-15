@@ -35,15 +35,15 @@
     /* ERROR 1: El color primario no es el correcto, debería ser un cyan vibrante
        PISTA: Revisa el valor hexadecimal, el original era un tono cyan (#0ea5e9) */
     /* Corregido */
-    --color-primary: #0ea5e9;          /* Cyan vibrante */
-    --color-primary-dark: #0284c7;
+    --color-primary: #345cb2;          /* Cyan vibrante */
+    --color-primary-dark: #3e68cc;
     --color-primary-light: #38bdf8;
-    --color-secondary: #8b5cf6;         /* Violeta eléctrico */
-    --color-secondary-dark: #7c3aed;
+    --color-secondary: #7775c9;         /* Violeta eléctrico */
+    --color-secondary-dark: #131582;
     
     /* Colores de fondo */
-    --color-bg-primary: #0f172a;        /* Azul medianoche */
-    --color-bg-secondary: #1e293b;      /* Gris pizarra oscuro */
+    --color-bg-primary: #344687;        /* Azul medianoche */
+    --color-bg-secondary: #19335d;      /* Gris pizarra oscuro */
     --color-bg-tertiary: #334155;       /* Gris pizarra */
     --color-bg-card: #1e293b;
     
@@ -279,7 +279,7 @@ button {
     left: 0;
     width: 100%;
     height: var(--header-height);
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(32, 50, 95, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     z-index: var(--z-fixed);
@@ -608,7 +608,7 @@ button {
 .card__icon {
     width: 60px;
     height: 60px;
-    background: rgba(14, 165, 233, 0.1);
+    background: rgba(75, 77, 208, 0.1);
     border-radius: var(--border-radius-lg);
     display: flex;
     align-items: center;
@@ -649,7 +649,7 @@ button {
     font-size: var(--font-size-xs);
     font-weight: 500;
     color: var(--color-primary);
-    background: rgba(14, 165, 233, 0.1);
+    background: rgba(94, 122, 199, 0.1);
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--border-radius-full);
 }
